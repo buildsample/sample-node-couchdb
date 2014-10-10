@@ -10,6 +10,7 @@ node_js:
 services:
   - couchdb
 
+
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
@@ -25,10 +26,11 @@ script:
   - grunt
   - echo $COMPARE_URL
   - echo $LAST_SUCCESSFUL_BUILD_TIMESTAMP
+  - sleep 10s
 
 # Tell istanbul to generate a coverage report
 after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
 archive: true
-#cache: true
+cache: true
