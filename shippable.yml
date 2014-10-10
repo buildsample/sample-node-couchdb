@@ -10,6 +10,7 @@ node_js:
 services:
   - couchdb
 
+
 # The path for Xunit to output test reports
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
@@ -31,4 +32,4 @@ after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
 archive: true
-#cache: true
+cache: true
