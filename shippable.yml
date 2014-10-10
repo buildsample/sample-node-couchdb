@@ -26,6 +26,7 @@ script:
   - grunt
   - echo $COMPARE_URL
   - echo $LAST_SUCCESSFUL_BUILD_TIMESTAMP
+  - sleep 10s
 
 # Tell istanbul to generate a coverage report
 after_script:
