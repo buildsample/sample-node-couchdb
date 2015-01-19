@@ -41,5 +41,5 @@ after_script:
   - echo $BUILD_URL
 archive: true
 
-#build_image: shippable/minv2:beta
+build_image: shippable/minv2:beta
 #cache: true
