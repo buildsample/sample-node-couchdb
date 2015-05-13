@@ -31,7 +31,6 @@ script:
   - echo $LAST_SUCCESSFUL_BUILD_TIMESTAMP
   - echo $key1 and $key2
   
-
 # Tell istanbul to generate a coverage report
 after_script:
   - echo $key
