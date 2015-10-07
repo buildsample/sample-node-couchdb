@@ -41,4 +41,4 @@ after_script:
 archive: true
 
 #build_image: shippable/minv2:beta
-cache: true
+#cache: true
