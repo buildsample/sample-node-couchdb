@@ -1,4 +1,4 @@
-Node.js CouchDB Sample
+Node.js CouchDB test Sample
 =================
 
 
