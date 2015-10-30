@@ -1,6 +1,5 @@
-Node.js CouchDB Sample
-=================
-
+Node.js CouchDB Sample project
+=========================
 
 Implements a simple web application using CouchDB, with tests.
 
