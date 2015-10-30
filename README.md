@@ -1,7 +1,7 @@
 Node.js CouchDB Sample
 =================
 
-
+pr build
 
 Implements a simple web application using CouchDB, with tests.
 
