@@ -11,6 +11,7 @@ services:
   - couchdb
 
 #test pr1
+#test pr2
 # The path for Xunit to output test reports
 env:
   global:
