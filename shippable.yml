@@ -8,7 +8,7 @@ node_js:
   - 4.2
   - 4.0
 
-build_image: drydock/u12nodall:tip
+build_image: drydock/u12nodpls:tip
 
 # CouchDB binds to 127.0.0.1 by default
 services:
